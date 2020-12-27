@@ -19,32 +19,43 @@ module.exports = {
                 text: '学习积累',
                 items: [{
                         text: 'Ecma Script',
-                        link: '/ecma'
+                        link: '/ecma/'
                     }, {
                         text: 'Vue.js',
-                        link: '/vue'
+                        link: '/vue/'
                     },
                     {
                         text: 'CSS',
-                        link: '/css'
+                        link: '/css-study/'
                     },
                     {
                         text: '算法',
-                        link: '/programme'
+                        link: '/programme/'
                     },
                 ]
             },
             {
                 text: 'GitHub',
-                link: '/'
+                link: 'https://github.com/WangLYang/vuepress-blog'
             }
         ],
         //侧边栏
         sidebar: {
+            '/ecma': [{
+                title: '侧边栏1',
+                collapsable: false,
+            }],
             '/vue': [{
                 title: '侧边栏1',
                 collapsable: false,
-
+            }],
+            '/programme': [{
+                title: '侧边栏1',
+                collapsable: false,
+            }],
+            '/css-study': [{
+                title: '侧边栏1',
+                collapsable: false,
             }]
         }
     }
