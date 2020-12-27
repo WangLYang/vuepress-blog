@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/vuepress-blog/',
     title: 'WLY \'s Blog',
     head: [
         ['link', {
