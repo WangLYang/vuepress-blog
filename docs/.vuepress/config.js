@@ -43,7 +43,8 @@ module.exports = {
         //侧边栏
         sidebar: {
             '/ecma': [{
-                title: '侧边栏1',
+                title: 'Promise实现',
+                path: '/ecma/promise-implement',
                 collapsable: false,
             }],
             '/vue': [{
