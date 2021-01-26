@@ -42,20 +42,19 @@ module.exports = {
         ],
         //侧边栏
         sidebar: {
-            '/ecma': [{
-                title: 'Promise实现',
-                path: '/ecma/promise-implement',
-                collapsable: false,
-            }],
-            '/vue': [{
+            '/ecma/': [
+                '',
+                'promise-implement'
+            ],
+            '/vue/': [{
                 title: '侧边栏1',
                 collapsable: false,
             }],
-            '/programme': [{
+            '/programme/': [{
                 title: '侧边栏1',
                 collapsable: false,
             }],
-            '/css-study': [{
+            '/css-study/': [{
                 title: '侧边栏1',
                 collapsable: false,
             }]

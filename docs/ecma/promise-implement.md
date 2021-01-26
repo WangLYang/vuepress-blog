@@ -1,3 +1,6 @@
+#  class Promise 
+
+根据Promise a+ 规范实现 class Promise
 ```javascript
 var PENDING = 'pending'
 var FULFILLED = 'fulfilled'
